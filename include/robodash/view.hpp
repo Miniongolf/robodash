@@ -9,6 +9,7 @@ namespace rd {
  * Flags to alter the behavior of a view
  */
 enum class ViewFlag {
+	/** Disable UI animations when the view is focused */
 	NoAnimation,
 };
 

@@ -1,9 +1,3 @@
-/**
- * @file image.hpp
- * @brief Robodash Image
- * @ingroup image
- */
-
 #pragma once
 #include "liblvgl/lvgl.h"
 #include "robodash/view.hpp"
@@ -12,28 +6,13 @@
 namespace rd {
 
 /**
- * @defgroup image Image
- * @brief An image display
- * @note All images must be converted using LVGL's online image converter
- * tool. (https://lvgl.io/tools/imageconverter)
- * @warning Images should be converted into an indexed color format for
- * performance. CF_INDEXED_4_BIT or CF_INDEXED_8_BIT is reccomended for
- * color images.
+ * An image display. Displays still images from an SD card or C array.
  *
  * @image html image.png
- *
- * Displays still images from an SD card or C array.
- */
-
-/**
- * @brief Image class
- * @ingroup image
+ * @note All images must be converted using LVGL's online image converter
+ * tool. (https://lvgl.io/tools/imageconverter)
  */
 class Image {
-	/// @addtogroup image
-	/// @{
-
-	/// @name Image Functions
   private:
 	rd::View view;
 
@@ -58,8 +37,6 @@ class Image {
 	 * @brief Set this view to the active view
 	 */
 	void focus();
-
-	/// @}
 };
 
 } // namespace rd
