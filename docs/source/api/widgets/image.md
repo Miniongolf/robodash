@@ -1,0 +1,3 @@
+```{doxygenclass} rd::Image
+:members:
+```
