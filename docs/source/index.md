@@ -32,12 +32,10 @@ GitHub <https://github.com/unwieldycat/robodash>
 
 ```{toctree}
 :hidden:
-:caption: Getting Started
+:caption: Guides
 :maxdepth: 2
 
-guides/installing.md
-guides/usage.md
-guides/ui.md
+guides/index.md
 
 ```
 
